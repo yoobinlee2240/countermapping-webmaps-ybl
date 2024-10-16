@@ -66,8 +66,8 @@ map.on('load',function(){
   });
 
    map.addSource('nychaLayer',{
-      'type':'vector',
-      'url': 'mapbox://yoobinlee1129.czahm4ye'
+    'type':'vector',
+    'url': 'mapbox://yoobinlee1129.czahm4ye'
   });
 
     // add a new layer with your polygons
@@ -80,8 +80,8 @@ map.on('load',function(){
       'paint':{
         'fill-color':'red',
         'fill-opacity': 0.5
-   }
-    });
+      }
+    })
   
     map.addLayer({
       'id':'flood_zones',
@@ -91,9 +91,7 @@ map.on('load',function(){
       'paint':{
         'fill-color':'#00158f',
         'fill-opacity': 0.5
-
-
-   }
+      }
     });
   });
 
