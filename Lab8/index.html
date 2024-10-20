@@ -98,14 +98,20 @@
     'source':'censusLayer',
     'source-layer':'nyc_blck_grp_2020_wcensus_dro-4db43i',
     'paint':{
-      'fill-color':[
-                'step',
-                ['get','AMR5E002'],
-                '#edf8e9',200,'#bae4b3',400,'#74c476',600,'#31a354',800,'#006d2c'
-              ],
-      'fill-opacity': 0.9
-      }
-    });
+'fill-opacity': [
+            'step',
+            ['get', 'AMR5E002'],
+            0,                  
+            300, 1,            
+          ],
+    'fill-color': [
+      'step',
+      ['get', 'AMR5E002'], 
+      '#edf8e9', 
+      300, '#f5ef42',
+    ]
+  }
+});
 
     map.addLayer({
       'id':'nychaBuildings',
