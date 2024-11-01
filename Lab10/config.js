@@ -12,7 +12,7 @@ var config = {
     title: 'Public and Affordable Housing Flood Risk',
     subtitle: 'How Hurricane Sandy Threatened Public and Affordable Housing in New York City in the Fall of 2012',
     byline: 'By Yoobin Lee',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template. Images from <a href="https://thebridgebk.com/red-hook-after-sandy-flourishing-but-vulnerable/">The Bridge</a> and <a href="https://unsplash.com/photos/aerial-photo-of-city-buildings-0V6DmTuJaIk">Unsplash</a>.',
     chapters: [
         {
             id: 'slug-style-id',
