@@ -12,7 +12,6 @@ const map = new mapboxgl.Map({
 });
 
 map.on('load', function () {
-	// console.log("whatever");
 
 	map.addSource('restaurantSource',{
         'type':'vector',
@@ -37,15 +36,17 @@ map.on('load', function () {
 					95, '#fde725'   // (95 - 100)
 					]
         }
-  })
+  });
+
+	console.log("My name is Yoobin");
 
 	map.on('mouseenter', 'restaurantLayer', (e) => {
-        // console.log(e.features[0]['properties']['business_name']);
+        console.log(e.features[0]['properties']['business_name']);
         var name = e.features[0]['properties']['business_name'];
         var textField = document.getElementById('restText');
         textField.innerHTML = name;
 
-    })
+    });
 
 
 })
