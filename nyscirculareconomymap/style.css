@@ -124,11 +124,11 @@ body {
      color: #fafafa;
      background-color: #444;
  }
- .step {
+ /* .step {
      padding-bottom: 50vh;
      /* margin-bottom: 10vh; */
      opacity: 0.25;
- }
+ } */
  .step.active {
      opacity: 0.9;
  }
