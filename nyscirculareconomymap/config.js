@@ -19,11 +19,12 @@ var config = {
       {
 
                 id: 'slug-style-id',
-                alignment: 'left',
+                alignment: 'center',
                 hidden: false,
                 title: 'The Costs of Demolition',
                 image: 'images/costofdemolitioninfographic.png',
-                description: '',
+                description: 'This mapping effort will: 1) Reveal gaps in infrastructure. 2) Highlight opportunities for growth. 3) Convey the importance of expanding the reuse of building materials to meet sustainability goals.The key message is that strengthening this ecosystem can lead to significant environmental and economic benefits while supporting local communities in reducing waste and promoting resource efficiency.',
+
 
                 onChapterEnter: [
                     // {
@@ -43,7 +44,7 @@ var config = {
                 id: 'interlude',
                 alignment: 'center',
                 hidden: false,
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
+                description: 'This mapping effort will: 1) Reveal gaps in infrastructure. 2) Highlight opportunities for growth. 3) Convey the importance of expanding the reuse of building materials to meet sustainability goals.The key message is that strengthening this ecosystem can lead to significant environmental and economic benefits while supporting local communities in reducing waste and promoting resource efficiency.',
                 image: 'images/scccpmap1.png',
                 location: {
                   center: [-73.97615, 40.71901],
@@ -56,28 +57,21 @@ var config = {
                 id: 'interlude',
                 alignment: 'center',
                 hidden: false,
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
+                description: ' Identifying Areas of Opportunity (Data source: Census Reporter): Map population density by Census Block to identify high-density areas lacking circular economy infrastructure.',
                 image: 'images/scccpmap2majorroads.png',
             },
             {
                 id: 'interlude',
                 alignment: 'center',
                 hidden: false,
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
-                image: 'images/scccpraillinesmap.png',
-            },
-            {
-                id: 'interlude',
-                alignment: 'center',
-                hidden: false,
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
+                description: 'Locating Demolition Facilities in NYS (Data source: CR0WD StoryMap): NYS Street and Address locator from NYS GIS Clearinghouse. Identified facility locations on Microsoft Excel and geocoded data on ArcGIS Pro.',
                 image: 'images/scccpcddfacilitiesmap.png',
             },
             {
                 id: 'interlude',
                 alignment: 'center',
                 hidden: false,
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tempor purus, eget tempus sem bibendum vel. Maecenas at justo non felis accumsan condimentum vitae et leo. Sed sodales nec risus maximus congue. Ut quis tincidunt leo. Pellentesque sapien nisl, congue tempus mauris in, pulvinar mattis turpis. Nullam sit amet justo egestas, laoreet mauris ut, pulvinar ipsum. Pellentesque vehicula imperdiet iaculis. Nam in tellus metus. Donec a est non orci efficitur ornare id mattis eros. Aliquam vel facilisis ligula. Nullam tincidunt, sapien vitae bibendum consequat, nibh eros eleifend ligula, et aliquam enim justo eget felis. Sed nec vehicula metus. Pellentesque rutrum dui quis egestas hendrerit. Nullam auctor et tortor sit amet congue.',
+                description: '',
                 image: 'images/fullmap.png',
             },
         ]
